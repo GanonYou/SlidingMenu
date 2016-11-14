@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/item_view"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mountain"
+        android:adjustViewBounds="true"
+        android:id="@+id/iv_img"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/tv_info_1"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>
